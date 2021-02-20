@@ -2,6 +2,14 @@
   package="com.soal">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Akses lokasi terkini -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- akses camera -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- akses membuat data di SD card -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- akses melihat data di SD Card -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
       android:name=".MainApplication"
